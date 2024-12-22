@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/style2.css"/> -->
+    <link href=".\css\style2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"  />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>product</title>
+</head>
+<body>
+      <!-- Topbar Start -->
+    
+      <div class="container-fluid px-5 d-none d-lg-block">
+        <div class="row gx-5 py-3 align-items-center">
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-start">
+                    <i class="bi bi-phone-vibrate fs-1 text-primary me-2"></i>
+                    <h2 class="mb-0">+012 345 6789</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a href="index.html" class="navbar-brand ms-lg-5">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Fresh</span>Harvest</h1>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-primary btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <!-- <nav class="navbar navbar-expand-lg bg-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5"> -->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm py-3 py-lg-0 px-3 px-lg-5">
+        <a href="index.html" class="navbar-brand d-flex d-lg-none">
+            <h1 class="m-0 display-4 text-secondary"><span class="text-white">Fresh</span>Harvest</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto py-0">
+                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Service</a>
+                <a href="product.html" class="nav-item nav-link active">Product</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
+                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        <a href="feature.html" class="dropdown-item">Features</a>
+                        <a href="team.html" class="dropdown-item">The Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                
+            </div>
+            <!-- <div class="icon-cart" >
+                <i class="fa-solid fa-cart-shopping"></i>
+              <span>0</span>
+            
+              </div> -->
+        </div>
+    </nav>
+    <div id="cart-items"></div>
+    <!-- Navbar End -->
+    <header class="header">
+        <div class="header--menu">
+          
+            <div class="search--box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="search"/>
+            </div>
+            <div class="menu--icons">
+                <i class="fa-solid fa-bowl-food"></i>
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="cover">
+        <div class="cover--overlay">
+            <h1 style="color: white;">Quick Bite</h1>
+            <span class="slogan">Where Taste Takes the fast Lane </span>
+        </div>
+    </section>
+    <main>
+       
+        <h2 class="section-heading">Products Menu</h2>
+        <div class="menu--list">
+            <div class="menu--item">
+                <img src=".\img-product\vegetables.jpg" alt="vegetables">
+                <h5>Vegetables</h5>
+            </div>
+            
+            <div class="menu--item">
+                <img src=".\img-product\milk.jpg" alt="DiaryProducts">
+                <h5>DiaryProducts</h5>
+            </div>
+            <div class="menu--item">
+                <img src=".\img-product\organicProduct.jpg" alt="organicProducts">
+                <h5>OrganicProducts</h5>
+            </div>
+            <div class="menu--item">
+                <img src=".\img-product\olive.jpg" alt="olive">
+                <h5>Olives</h5>
+            </div>
+            <div class="menu--item">
+                <img src=".\img-product\honey.jpg" alt="honey">
+                <h5>Honey</h5>
+            </div>
+            <div class="menu--item">
+                <img src=".\img-product\fruit.jpg" alt="fruit">
+                <h5>Fruits</h5>
+            </div>
+        </div>
+        <!-- card-item -->
+        <h2 class="section-heading">Menu Items</h2>  
+        <div class="card--list">
+            <div class="card">
+            <img src="./img-product/orange.jpg" alt="">
+            <h4 class="card--title">Orange</h4>
+            <div class="card--price">
+                <div class="price">.60JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img-product/pineapple.jpg" alt="">
+            <h4 class="card--title">pineapple</h4>
+            <div class="card--price">
+                <div class="price">1 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img-product/kiwi.jpg" alt="">
+            <h4 class="card--title">Kiwi</h4>
+            <div class="card--price">
+                <div class="price">2 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img-product/banana.jpg" alt="">
+            <h4 class="card--title">Banana</h4>
+            <div class="card--price">
+                <div class="price">.80 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img-product/strawbery.jpg" alt="">
+            <h4 class="card--title">strawbery</h4>
+            <div class="card--price">
+                <div class="price">.60 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+         <div class="card">
+            <img src="./img-product/watermillon.jpg" alt="">
+            <h4 class="card--title">Watermillon</h4>
+            <div class="card--price">
+                <div class="price">.90 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+         <div class="card">
+            <img src="./img-product/grips.jpg" alt="">
+            <h4 class="card--title">Grips</h4>
+            <div class="card--price">
+                <div class="price">.80 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/capsicum.jpg" alt="">
+            <h4 class="card--title">capsicum</h4>
+            <div class="card--price">
+                <div class="price">1 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/eggplant.jpg" alt="">
+            <h4 class="card--title">Egglant</h4>
+            <div class="card--price">
+                <div class="price">3.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/tomato.jpg" alt="">
+            <h4 class="card--title">Tomato</h4>
+            <div class="card--price">
+                <div class="price">.70 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/raddish.jpg" alt="">
+            <h4 class="card--title">Raddish</h4>
+            <div class="card--price">
+                <div class="price">.80 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="./img-product/cucumber.jpg" alt="">
+            <h4 class="card--title">Cucumber</h4>
+            <div class="card--price">
+                <div class="price">1.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/parsley.jpg" alt="">
+            <h4 class="card--title">Parsley</h4>
+            <div class="card--price">
+                <div class="price">2 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/carrots.jpg" alt="">
+            <h4 class="card--title">Carrots</h4>
+            <div class="card--price">
+                <div class="price">1.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/milk.jpg" alt="">
+            <h4 class="card--title">Milk</h4>
+            <div class="card--price">
+                <div class="price">.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/buter.jpg" alt="">
+            <h4 class="card--title">Buter</h4>
+            <div class="card--price">
+                <div class="price">3.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/honey.jpg" alt="">
+            <h4 class="card--title">Honey</h4>
+            <div class="card--price">
+                <div class="price">15 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/egg.jpg" alt="">
+            <h4 class="card--title">Egg</h4>
+            <div class="card--price">
+                <div class="price">2.75 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/cheese.jpg" alt="">
+            <h4 class="card--title">Cheese</h4>
+            <div class="card--price">
+                <div class="price">1 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/olive.jpg" alt="">
+            <h4 class="card--title">Olive</h4>
+            <div class="card--price">
+                <div class="price">2.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img-product/Wheat.jpg" alt="">
+            <h4 class="card--title">Wheat</h4>
+            <div class="card--price">
+                <div class="price">4.5 JOD</div>
+                <i class="fa-solid fa-plus add-to-cart"></i>
+            </div>
+        </div>
+        
+    </div>
+<!-- cart sidebar section -->
+<div class="sidebar" id="sidebar">
+    <div class="sidebar-close">
+        <i class="fa-solid fa-close"></i>
+       </div>
+       <div class="cart-menu">
+        <h3 class="My Cart">My Cart</h3>
+        <div class="cart-items"></div>
+
+    </div>
+        <div class="sidebar--footer">
+            <div class="total--amount">
+                <h5>Total</h5>
+                <div class="cart-total">0.00 JOD</div>
+            </div>
+           <button class="checkout-btn" style="color: aliceblue;">Checkout</button>
+        </div>
+   
+</div>
+
+    </main>
+    
+<script src="js/addtocart.js"></script>
+
+    
+</body>
+</html>
